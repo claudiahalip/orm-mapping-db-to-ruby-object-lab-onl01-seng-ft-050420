@@ -78,7 +78,7 @@ class Student
     sql = <<-SQL
       SELECT name 
       FROM students 
-      WHERE grade < 12
+      WHERE grade < 12;
        
       SQL
       
